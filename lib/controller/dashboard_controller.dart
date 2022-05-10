@@ -24,6 +24,7 @@ class DashboardController extends GetxController{
   var steps="0".obs;
   var km="0".obs;
   var cal="0".obs;
+
   var coins="0".obs;
   var lastUpdated="".obs;
   var safePoints="0".obs;
