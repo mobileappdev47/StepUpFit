@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "870209675216",
+    "project_id": "stepupfit-c1134",
+    "storage_bucket": "stepupfit-c1134.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870209675216:android:74190c4929b84eb16ea3d5",
+        "android_client_info": {
+          "package_name": "com.step.up.fit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870209675216-5q01q2gfnnflkh71nikcj0j6tmsgomac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.step.up.fit",
+            "certificate_hash": "6731f6edf3d7b19c951b56bb9148357eeff0fa98"
+          }
+        },
+        {
+          "client_id": "870209675216-631ok9co4qq3vaej2fg8hptnd307pe9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.step.up.fit",
+            "certificate_hash": "7c24d2606e006ddf891707f759ad658d115d44ba"
+          }
+        },
+        {
+          "client_id": "870209675216-odmmb2s5s6kpsntdd9bsdnjk7ldggtro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.step.up.fit",
+            "certificate_hash": "0ee912a687da6bcec3cf33fef5c41eebd2a2e9d9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVvv6Bbom6qosnVGUmRwGxGE2D9MoV5V0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

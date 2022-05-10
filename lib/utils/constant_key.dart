@@ -1,0 +1,8 @@
+const String KEY_IS_LOGIN = "KEY_IS_LOGIN";
+const String KEY_IS_USER_ID = "KEY_IS_USER_ID";
+const String KEY_STEP = "KEY_STEP";
+const String KEY_KM = "KEY_KM";
+const String KEY_STEP_COUNT = "KEY_STEP_COUNT";
+const String KEY_LAST_DAY_STEP_COUNT = "KEY_LAST_DAY_STEP_COUNT";
+const String KEY_LAST_DATE = "KEY_LAST_DATE";
+const String KEY_IS_NOTIFICATION_ON = "KEY_IS_NOTIFICATION_ON";

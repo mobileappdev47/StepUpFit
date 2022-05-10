@@ -1,0 +1,3 @@
+Key store password: StepUpFit
+Key alias: SUP
+Key Password:  StepUpFit
