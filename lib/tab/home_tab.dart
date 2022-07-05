@@ -498,6 +498,30 @@ class _HomeTabState extends State<HomeTab> {
                       width: Get.width,
                       height: 0.5,
                     ),
+                    isDisableAds
+                        ? SizedBox.shrink()
+                        : Align(
+                        alignment: Alignment.bottomCenter,
+                        child: AdmobBanner(
+                            adUnitId: _dashboardController
+                                .modelSetting.value.bannerId
+                                .toString(),
+                            adSize: AdmobBannerSize.MEDIUM_RECTANGLE,
+                            listener: (AdmobAdEvent event,
+                                Map<String, dynamic> args) {
+                              print(event.toString());
+                              if (event ==
+                                  AdmobAdEvent.failedToLoad) {
+                                setState(() {
+                                  isDisableAds = true;
+                                });
+                              }
+                            })),
+                    Container(
+                      color: Colors.white.withOpacity(0.20),
+                      width: Get.width,
+                      height: 0.5,
+                    ),
                     SizedBox(
                       height: Get.height * 0.03,
                     ),
